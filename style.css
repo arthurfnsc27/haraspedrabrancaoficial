@@ -1,0 +1,249 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x:hidden;
+}
+
+header {
+    position:fixed;
+    background-color: #000000;
+    padding: 19px 0px;
+    width:100%;
+}
+
+.itens {
+    background-color:white;
+    position: fixed;
+    opacity: 0.8;
+    margin: 19px auto 0 auto;
+    width: 100%;
+}
+
+.itens .icons {
+    background-color:white;
+    width: 35px;
+    position:relative;
+    top:27px;
+    left: 50px;
+    padding-right:20px;
+    transition: 400ms;
+}
+
+.itens .icons:hover {
+    transform:scale(1.2)
+}
+
+.classe-itens {
+    background-color:white;
+    display: inline;
+    padding: 0px 25px 20px 0px;
+    margin: 0px 0px 40px 0px;
+    position: relative;
+    bottom: 38px;
+    left: 915px;
+}
+
+.house {
+    background-color:white;
+    width: 50px;
+    position:relative;
+    top: 18.5px;
+    left: 10px;
+    transition: 400ms;
+}
+
+.house:hover {
+    transform:scale(1.2)
+}
+
+.classe-itens a {
+    background-color:white;
+    text-decoration: none;
+    color: black;
+}
+
+.classe-itens a:hover {
+    color: #BD871A;
+}
+
+.caixa {
+    background-color:white;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 5px;
+}
+
+.img {
+    width:22px;
+    position: relative;
+    bottom: 3.5px;
+    padding-right: 2px;
+}
+
+nav {
+    line-height: 0.5;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10.9999px;
+    font-weight: bold;
+}
+
+nav a p {
+    display: inline;
+    padding-right: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+nav a:hover {
+    color: #BD871A;
+}
+
+.caixa2 {
+    background:url("pedra.jpeg");
+    background-size:cover;
+    padding:30%;
+}
+
+.conteudo {
+    background-color:white;
+    padding: 20%;
+    font-size: 32px;
+    font-weight: bold;
+    text-align:center;
+    padding: 1em;
+}
+
+.conteudo .mapa {
+    margin-top: 1em;
+    display:inline-block;
+    width:100%;
+}
+
+.conteudo .cavalos {
+    width: 450px;
+    transition: 400ms all;
+}
+
+#cavalo3 {
+    position:relative;
+    top:5px;
+    left:1px;
+}
+
+.conteudo .cavalos:hover {
+    transform:scale(1.4)
+}
+
+.conteudo .cavalo:active {
+    background-color: orange;
+}
+
+footer {
+    background-color: black;
+    padding: 100px;
+    text-transform: uppercase;
+    text-align:center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+footer > p + p {
+    margin-top: 10px;
+    font-size:15px;
+}
+
+.machador {
+    width: 80px;
+    margin-top: 10px;
+}
+
+/*CSS PARA CELULARES*/
+@media screen and (max-width:480px) {
+
+    .body {
+        overflow-x:hidden;
+    }
+
+    header {
+        position:fixed;
+    }
+
+    .itens {
+        position:fixed;
+    }
+
+    .caixa {    
+        position: relative;
+        right: 7em;
+        bottom: 1em;
+    }
+
+    .itens-caixa {
+        font-size:50px
+    }
+      
+    .itens .icons {
+        position:relative;
+        top:5px;
+        left: 350px;
+     }
+
+    .classe-itens {
+          position:relative;
+          bottom:23px;
+          left:20px;
+          display: inline;
+          font-weight:bold;
+          font-size: 1.4em;
+      }
+
+    .caixa2 {
+          background-size:cover;
+          width:100%;
+          bottom:1.5em;
+         padding: 60%;
+      }
+
+    .conteudo p {
+          position:relative;
+          left: 6.5em;
+          font-weight:bold;
+      }
+
+    .conteudo .mapa {
+          margin: 4em auto;
+          position: relative;
+          margin: 2em auto;
+          width:24em;
+          display:inline;
+      }
+
+    .conteudo .cavalos {
+        position: relative;
+        width: 24em;
+      }
+
+     footer {
+          width: 100%;
+          padding: 4.7em;;
+      }
+}
+
+
+   
